@@ -11,6 +11,7 @@ export default function App() {
       <h1>Hello StackBlitz!</h1>
       <p>Start editing to see some magic happen :)</p>
       <button onClick={() => Showalert('1234')}>Click me</button>
+      <button>SuperMagic</button>
     </div>
   );
 }
