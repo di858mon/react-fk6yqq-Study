@@ -1,9 +1,12 @@
 import React from 'react';
-
+function TestOutput() {
+  let out = document.querySelector('.out');
+  out.textContent = 'test';
+}
 function Test() {
   return (
     <>
-      <button>TestButton</button>
+      <button onClick={TestOutput}>TestButton</button>
     </>
   );
 }

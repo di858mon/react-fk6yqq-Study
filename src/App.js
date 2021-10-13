@@ -10,6 +10,7 @@ export default function App() {
   return (
     <div>
       <h1>Study React</h1>
+      <div className="out"> </div>
       <Test />
       <p>Start editing to see some magic happen :)</p>
       <button onClick={() => Showalert('1234')}>Click me</button>
