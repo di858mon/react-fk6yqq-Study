@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 import Test from './comp/Test';
+import Task1 from './comp/Task1';
+import Task3 from './comp/Task3';
 
 export default function App() {
   function Showalert(text) {
@@ -9,12 +11,7 @@ export default function App() {
   }
   return (
     <div>
-      <h1>Study React</h1>
-      <div className="out"> </div>
-      <Test />
-      <p>Start editing to see some magic happen :)</p>
-      <button onClick={() => Showalert('1234')}>Click me</button>
-      <button>SuperMagic</button>
+      <Task3 />
     </div>
   );
 }

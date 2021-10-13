@@ -1,4 +1,5 @@
 import React from 'react';
+
 function TestOutput() {
   let out = document.querySelector('.out');
   out.textContent = 'test';
