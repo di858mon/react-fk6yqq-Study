@@ -1,6 +1,8 @@
 import React from 'react';
 import './style.css';
 import Test from './comp/Test';
+import PlaceHolderHook from './comp/PlaceholderPostHook';
+import ChooseList from "./comp/ChooseList"
 
 export default function App() {
   function Showalert(text) {
@@ -8,13 +10,9 @@ export default function App() {
     console.log('12');
   }
   return (
-    <div>
-      <h1>Study React</h1>
-      <div className="out"> </div>
-      <Test />
-      <p>Start editing to see some magic happen :)</p>
-      <button onClick={() => Showalert('1234')}>Click me</button>
-      <button>SuperMagic</button>
-    </div>
+    <>
+      <ChooseList/>
+      <hr/>
+    </>
   );
 }
